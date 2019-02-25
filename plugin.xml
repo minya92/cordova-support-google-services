@@ -1,21 +1,26 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
-           id="cordova-support-google-services"
-      version="1.2.1">
+           id="f4m-support-google-services"
+      version="1.2.4">
 
     <name>cordova-support-google-services</name>
     <description>Cordova plugin to add google service support</description>
     <license>MIT</license>
     <keywords>cordova</keywords>
-    <repo>https://github.com/chemerisuk/cordova-support-google-services</repo>
-    <issue>https://github.com/chemerisuk/cordova-support-google-services/issues</issue>
+    <repo>https://github.com/minya92/cordova-support-google-services</repo>
+    <issue>https://github.com/minya92/cordova-support-google-services/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.5.0"/>
     </engines>
 
     <platform name="android">
+        <resource-file src="android/google-services.json" target="."/>
         <framework src="build.gradle" custom="true" type="gradleReference" />
+    </platform>
+
+    <platform name="ios">
+        <resource-file src="ios/GoogleService-Info.plist" />
     </platform>
 
 </plugin>

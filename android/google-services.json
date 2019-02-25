@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "357172986569",
+    "firebase_url": "https://quizdom-win.firebaseio.com",
+    "project_id": "quizdom-win",
+    "storage_bucket": "quizdom-win.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357172986569:android:472976fc0b003b11",
+        "android_client_info": {
+          "package_name": "com.masterapp_test_version"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357172986569-bnidnesc1gre4c2809f5t703ld7pcjlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByv8Vsa17FoQhTLDuiV2FGjXGgs8CmMPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
